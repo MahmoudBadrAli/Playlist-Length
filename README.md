@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Playlist Length Logo](./screenshots/logo.png)
+![Playlist Length Logo](/README-assets/logo.png)
 
 **Your Smart YouTube Playlist Companion**
 
@@ -10,6 +10,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.x-764ABC?logo=redux)](https://redux-toolkit.js.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![MUI](https://img.shields.io/badge/MUI-5.x-007FFF?logo=mui)](https://mui.com/)
+[![Axios](https://img.shields.io/badge/Axios-1.x-671DDF?logo=axios&logoColor=white)](https://axios-http.com/)
 
 [Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
 
@@ -31,7 +33,6 @@
 - [API Integration](#-api-integration)
 - [State Management](#-state-management)
 - [Internationalization](#-internationalization)
-- [Styling](#-styling)
 - [Contributing](#-contributing)
 - [License](#-license)
 - [Contact](#-contact)
