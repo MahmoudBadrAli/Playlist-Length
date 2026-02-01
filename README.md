@@ -13,7 +13,7 @@
 [![MUI](https://img.shields.io/badge/MUI-5.x-007FFF?logo=mui)](https://mui.com/)
 [![Axios](https://img.shields.io/badge/Axios-1.x-671DDF?logo=axios&logoColor=white)](https://axios-http.com/)
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
+[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
 
 </div>
 
