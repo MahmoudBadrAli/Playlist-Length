@@ -12,6 +12,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![MUI](https://img.shields.io/badge/MUI-5.x-007FFF?logo=mui)](https://mui.com/)
 [![Axios](https://img.shields.io/badge/Axios-1.x-671DDF?logo=axios&logoColor=white)](https://axios-http.com/)
+[![React Hot Toast](https://img.shields.io/badge/React_Hot_Toast-2.x-FF6B6B?logo=react&logoColor=white)](https://react-hot-toast.com/)
+[![i18n](https://img.shields.io/badge/i18n-react--i18next-26A69A?logo=i18next&logoColor=white)](https://react.i18next.com/)
 
 [Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Contributing](#-contributing)
 
