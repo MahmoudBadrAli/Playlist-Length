@@ -1,0 +1,341 @@
+/* ------------------------------------------ */
+/*                CSS Variables                */
+/* ------------------------------------------ */
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #1976d2;
+    --secondary: #226db8;
+    --dark-bg: #393939;
+    --dark-text: rgb(196 196 196);
+    --light-text: rgb(102 102 102);
+    --primary-warning: #ef5350;
+    --secondary-warning: #f44336;
+}
+
+/* ------------------------------------------ */
+/*                Some Styles                */
+/* ------------------------------------------ */
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #e5e7eb;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #9ca3af;
+    border-radius: 6px 0 0 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6b7280;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background-color: #374151;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background-color: #6b7280;
+    border-color: #374151;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background-color: #9ca3af;
+}
+
+/* ------------------------------------------ */
+/*                Tailwind CSS                */
+/* ------------------------------------------ */
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@media (min-width: 481px) {
+    .xs\:text-4xl {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+.card {
+    @apply bg-white dark:bg-gray-700 shadow-2xl rounded-xl p-5 flex w-full flex-col mb-18;
+}
+
+.link-item {
+    @apply transition duration-300 font-bold hover:text-black dark:hover:text-white hover:bg-[#cccccc4f] dark:hover:bg-[#cccccc27] py-1 px-2 rounded-lg;
+}
+
+.footer-link-item {
+    @apply hover:text-blue-500 transition-colors;
+}
+
+.hr {
+    @apply w-full mb-4 mt-6 border-t border-gray-300 dark:border-gray-600;
+}
+
+.glass-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.glass-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.1),
+            transparent);
+    transition: all 0.5s;
+}
+
+.light .glass-card::before {
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(0, 0, 0, 0.08),
+            transparent);
+}
+
+.glass-card:hover::before {
+    left: 100%;
+}
+
+
+/* ---------------------------------- */
+/*               FONTS                */
+/* ---------------------------------- */
+
+/* Playfair_Display (Title) */
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-Black.ttf");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-BlackItalic.ttf");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-ExtraBold.ttf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-ExtraBoldItalic.ttf");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-BoldItalic.ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-SemiBold.ttf");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-SemiBoldItalic.ttf");
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-Italic.ttf");
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-MediumItalic.ttf");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Playfair";
+    src: url("/public/fonts/Playfair_Display/PlayfairDisplay-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Reem_Kufi (Title) */
+@font-face {
+    font-family: "Reem";
+    src: url("/public/fonts/Reem_Kufi/ReemKufi-Bold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Reem";
+    src: url("/public/fonts/Reem_Kufi/ReemKufi-SemiBold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Reem";
+    src: url("/public/fonts/Reem_Kufi/ReemKufi-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Reem";
+    src: url("/public/fonts/Reem_Kufi/ReemKufi-Regular.ttf");
+    font-weight: 400;
+}
+
+/* Markazi_Text (English) */
+@font-face {
+    font-family: "Markazi";
+    src: url("/public/fonts/Markazi_Text/MarkaziText-Bold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Markazi";
+    src: url("/public/fonts/Markazi_Text/MarkaziText-SemiBold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Markazi";
+    src: url("/public/fonts/Markazi_Text/MarkaziText-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Markazi";
+    src: url("/public/fonts/Markazi_Text/MarkaziText-Regular.ttf");
+    font-weight: 400;
+}
+
+/* Cairo (Arabic) */
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-Black.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-ExtraBold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-Bold.ttf");
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-SemiBold.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("/public/fonts/Cairo/Cairo-ExtraLight.ttf");
+    font-weight: 200;
+}
+
+/* Readex_Pro (Arabic Title) */
+@font-face {
+    font-family: "Readex";
+    src: url("/public/fonts/Readex_Pro/ReadexPro-Bold.ttf");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Readex";
+    src: url("/public/fonts/Readex_Pro/ReadexPro-SemiBold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Readex";
+    src: url("/public/fonts/Readex_Pro/ReadexPro-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Readex";
+    src: url("/public/fonts/Readex_Pro/ReadexPro-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Readex";
+    src: url("/public/fonts/Readex_Pro/ReadexPro-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Readex";
+    src: url("/public/fonts/Readex_Pro/ReadexPro-ExtraLight.ttf");
+    font-weight: 100;
+}

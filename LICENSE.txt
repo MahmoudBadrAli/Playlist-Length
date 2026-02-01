@@ -1,0 +1,16 @@
+Playlist Length
+
+Copyright © 2026 Mahmoud Badr Ali
+All Rights Reserved.
+
+This web application, including but not limited to its source code,
+user interface, design, logic, algorithms, structure, content,
+and overall concept, is the exclusive intellectual property
+of Mahmoud Badr Ali.
+
+No part of this project may be copied, reproduced, modified,
+reverse engineered, distributed, sublicensed, or used
+for commercial or non-commercial purposes without
+explicit written permission from the owner.
+
+Unauthorized use of this project is strictly prohibited.
