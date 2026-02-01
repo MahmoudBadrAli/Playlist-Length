@@ -6,7 +6,6 @@
 
 **Your Smart YouTube Playlist Companion**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.x-764ABC?logo=redux)](https://redux-toolkit.js.org/)
@@ -89,7 +88,7 @@
 
 ### Live Demo
 
-🔗 [Visit Playlist Length](https://your-demo-link.com)
+🔗 [Visit Playlist Length](https://playlist-length-indol.vercel.app/)
 
 ---
 
@@ -97,15 +96,17 @@
 
 <div align="center">
 
+### Landing Page
+
+![Landing Page](/README-assets/landing-page-dark.png)
+
+![Landing Page](/README-assets/landing-page-light.png)
+
 ### Browse Section
 
-![Browse Section](./screenshots/browse.png)
-_Search and save YouTube playlists with ease_
+![Browse Section](/README-assets/browse-section-dark.png)
 
-### Dark Mode
-
-![Dark Mode](./screenshots/dark-mode.png)
-_Beautiful dark theme for comfortable viewing_
+![Browse Section](/README-assets/browse-section-light.png)
 
 </div>
 
@@ -162,7 +163,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/playlist-length.git
+   git clone https://github.com/MahmoudBadrAli/Playlist-Length
    cd playlist-length
    ```
 
@@ -360,7 +361,7 @@ Contributions are welcome! Please follow these steps:
 1. **Fork the repository**
 
    ```bash
-   git clone https://github.com/yourusername/playlist-length.git
+   git clone https://github.com/MahmoudBadrAli/Playlist-Length
    ```
 
 2. **Create a feature branch**
@@ -399,7 +400,7 @@ Please be respectful and considerate in all interactions. We're building a welco
 
 ## 📝 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](/LICENSE.txt) file for details.
 
 ```
 MIT License
@@ -430,7 +431,7 @@ Unauthorized use of this project is strictly prohibited.
 
 - 📧 Email: mahmoudbadrali15@gmail.com
 
-**Project Repository**: [https://github.com/yourusername/playlist-length](https://github.com/yourusername/playlist-length)
+**Project Repository**: [https://github.com/MahmoudBadrAli/Playlist-Length](https://github.com/MahmoudBadrAli/Playlist-Length)
 
 ---
 
