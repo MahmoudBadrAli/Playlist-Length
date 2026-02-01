@@ -28,7 +28,6 @@
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Project Structure](#-project-structure)
 - [Key Components](#-key-components)
 - [API Integration](#-api-integration)
 - [State Management](#-state-management)
